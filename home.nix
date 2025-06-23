@@ -28,6 +28,7 @@
     uv
     ffmpeg-full
     texliveFull
+    imagemagick
 
     vesktop
     spotify

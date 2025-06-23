@@ -215,6 +215,7 @@
      gdb
      lldb
      cudaPackages.cudatoolkit
+     doas-sudo-shim
   ];
 
   xdg.portal.enable = true;

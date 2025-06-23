@@ -1,4 +1,4 @@
-{ pkgs, ... }: {
+{ pkgs, firefox-gnome-theme, ... }: {
   home.packages = with pkgs; [
     gnomeExtensions.blur-my-shell
     gnomeExtensions.hide-top-bar
@@ -131,12 +131,10 @@
             "browser.tabs.drawInTitlebar" = true;
             "svg.context-properties.content.enabled" = true;
          };
-		 /*
          userChrome = ''
             @import "firefox-gnome-theme/userChrome.css";
             @import "firefox-gnome-theme/theme/colors/dark.css"; 
          '';
-		 */
   };
     };
 
@@ -190,18 +188,11 @@
     };
   };
 
-/*
   # Add Firefox GNOME theme directory
   home.file."firefox-gnome-theme" = {
     target = ".mozilla/firefox/default/chrome/firefox-gnome-theme";
-    source = (fetchTarball "https://github.com/rafaelmardojai/firefox-gnome-theme/archive/master.tar.gz");
+    source = firefox-gnome-theme;
   };
-
-  home.file."librewolf-firefox-gnome-theme" = {
-    target = ".librewolf/default/chrome/firefox-gnome-theme";
-    source = (fetchTarball "https://github.com/rafaelmardojai/firefox-gnome-theme/archive/master.tar.gz");
-  };
-  */
 
   # This value determines the Home Manager release that your configuration is 
   # compatible with. This helps avoid breakage when a new Home Manager release 

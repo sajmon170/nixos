@@ -5,9 +5,13 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
+    firefox-gnome-theme = {
+        url = "github:rafaelmardojai/firefox-gnome-theme/master";
+        flake = false;
+    };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
+  outputs = inputs @ { self, nixpkgs, home-manager, firefox-gnome-theme, ... }: {
     nixosConfigurations.sajmon-nixos = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
@@ -16,6 +20,9 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
+            home-manager.extraSpecialArgs = {
+                inherit firefox-gnome-theme;
+            };
             home-manager.users.sajmon = ./home.nix;
           }
       ];

@@ -45,6 +45,7 @@
     noto-fonts-emoji
   ];
 
+  /*
   gtk = {
     enable = true;
     theme = {
@@ -52,6 +53,7 @@
       package = pkgs.adw-gtk3;
     };
   };
+  */
 
   dconf = {
     enable = true;

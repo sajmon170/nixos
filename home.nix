@@ -109,6 +109,11 @@
     bash = {
       enable = true;
 
+      initExtra = ''
+        # include .profile if it exists
+        [[ -f ~/.profile ]] && . ~/.profile
+      '';
+
       historyControl = [ "ignorespace" ];
 
       shellAliases = {
@@ -117,6 +122,10 @@
         octave = "octave --silent";
         gdb = "gdb -q";
         battery-status = "upower -i /org/freedesktop/UPower/devices/battery_BAT0";
+      };
+
+      sessionVariables = {
+        EDITOR = "nvim";
       };
     };
 

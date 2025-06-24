@@ -199,14 +199,6 @@
   # Allow unfree packages
   nixpkgs.config = {
     allowUnfree = true;
-
-    blender = {
-      cudaSupport = true;
-    };
-
-    unstable.blender = {
-      cudaSupport = true;
-    };
   };
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

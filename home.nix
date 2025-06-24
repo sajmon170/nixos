@@ -29,6 +29,8 @@
     ffmpeg-full
     texliveFull
     imagemagick
+    papers
+    foliate
 
     vesktop
     spotify

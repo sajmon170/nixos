@@ -34,7 +34,9 @@
 
     vesktop
     spotify
+    audacious
     ncmpcpp
+    cmus
     neofetch
     pfetch
     blackbox-terminal

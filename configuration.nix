@@ -219,6 +219,7 @@
      lldb
      cudaPackages.cudatoolkit
      doas-sudo-shim
+     unzip
   ];
 
   xdg.portal.enable = true;

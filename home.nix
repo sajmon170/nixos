@@ -50,6 +50,7 @@
 
     wineWowPackages.stagingFull
     lutris
+    devilutionx
   ];
 
   /*

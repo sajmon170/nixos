@@ -10,6 +10,13 @@
       ./hardware-configuration.nix
     ];
 
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 3d";
+  };
+
+
   # Bootloader.
   boot = {
     loader.systemd-boot.enable = true;

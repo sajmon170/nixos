@@ -257,7 +257,7 @@
 
   services.emacs = {
     enable = true;
-    package = pkgs.emacs-gtk;
+    package = pkgs.emacs;
   };
 
   # Enable the OpenSSH daemon.

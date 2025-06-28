@@ -16,6 +16,12 @@
     options = "--delete-older-than 3d";
   };
 
+  documentation = {
+    enable = true;
+    man.enable = true;
+    man.generateCaches = true;
+    dev.enable = true;
+  };
 
   # Bootloader.
   boot = {
@@ -213,6 +219,9 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+     man-pages
+     man-pages-posix
+
      neovim
      wget
      htop

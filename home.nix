@@ -68,6 +68,12 @@
     settings = {
       "org/gnome/desktop/wm/keybindings" = {
     move-to-center = ["<Alt>w"];
+    switch-applications = [];
+    switch-windows = ["<Alt>Tab"];
+  };
+
+  "org/gnome/shell/app-switcher" = {
+    current-workspace-only = true;
   };
 
   "org/gnome/desktop/interface" = {

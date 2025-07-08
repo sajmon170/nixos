@@ -26,9 +26,11 @@
     rustup
     python3Full
     uv
+
     ffmpeg-full
     texliveFull
     imagemagick
+    onlyoffice-desktopeditors
     papers
     foliate
 

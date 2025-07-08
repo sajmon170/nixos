@@ -26,6 +26,7 @@
     rustup
     python3Full
     uv
+    octaveFull
 
     ffmpeg-full
     texliveFull

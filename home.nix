@@ -43,6 +43,7 @@
     neofetch
     pfetch
     blackbox-terminal
+    fragments
 
     dolphin-emu
 

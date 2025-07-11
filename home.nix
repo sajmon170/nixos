@@ -61,6 +61,7 @@
       parallel-n64
       mgba
     ]))
+    parallel-launcher
   ];
 
   /*

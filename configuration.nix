@@ -228,6 +228,7 @@
      tmux
      powertop
      mesa-demos
+     rustup
      gcc_latest
      llvm
      clang

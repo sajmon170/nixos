@@ -23,7 +23,6 @@
     godot
     ardour
     obs-studio
-    rustup
     python3Full
     uv
     octaveFull

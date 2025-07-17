@@ -28,7 +28,6 @@
     octaveFull
 
     ffmpeg-full
-    texliveFull
     imagemagick
     onlyoffice-desktopeditors
     papers

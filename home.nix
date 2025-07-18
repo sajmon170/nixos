@@ -62,15 +62,14 @@
     parallel-launcher
   ];
 
-  /*
-  gtk = {
+  gtk.enable = true;
+  gtk.gtk3 = {
     enable = true;
     theme = {
       name = "adw-gtk3";
       package = pkgs.adw-gtk3;
     };
   };
-  */
 
   dconf = {
     enable = true;

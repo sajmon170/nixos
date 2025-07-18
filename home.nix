@@ -182,6 +182,20 @@
         extraConfig = {
             init.defaultBranch = "master";
         };
+        ignores = [
+          ".ccls-cache/"
+          ".ccls"
+          "\#*"
+          "vgcore*"
+          "*.[oad]"
+          "*.out"
+          "*.elf"
+          "*.exe"
+          "program"
+          "*.~undo-tree~"
+          "*.obj"
+          ".envrc"
+        ];
     };
 
     alacritty = {

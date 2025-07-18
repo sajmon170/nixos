@@ -34,6 +34,7 @@
     foliate
 
     vesktop
+    fractal
     spotify
     audacious
     ncmpcpp

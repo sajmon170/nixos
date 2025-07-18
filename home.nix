@@ -157,6 +157,9 @@
       };
     };
 
+    direnv.enable = true;
+    direnv.nix-direnv.enable = true;
+
     firefox = {
       enable = true;
 
@@ -195,6 +198,7 @@
           "*.~undo-tree~"
           "*.obj"
           ".envrc"
+          ".direnv/"
         ];
     };
 

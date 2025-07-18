@@ -45,7 +45,8 @@
 
     dolphin-emu
 
-    iosevka
+    iosevka-bin
+    (iosevka-bin.override { variant = "Aile"; })
     noto-fonts
     noto-fonts-cjk-sans
     noto-fonts-emoji
@@ -61,6 +62,8 @@
     ]))
     parallel-launcher
   ];
+
+  fonts.fontconfig.enable = true;
 
   gtk.enable = true;
   gtk.gtk3 = {

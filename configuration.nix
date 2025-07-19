@@ -250,6 +250,7 @@
      cudaPackages.cudatoolkit
      doas-sudo-shim
      unzip
+     steam-run
   ];
 
   xdg.portal.enable = true;

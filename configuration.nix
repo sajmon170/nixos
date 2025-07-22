@@ -242,7 +242,6 @@
      mesa-demos
      rustup
      gcc_latest
-     automake117x
      llvm
      clang
      gdb

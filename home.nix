@@ -179,6 +179,14 @@
   };
     };
 
+    chromium = {
+      enable = true;
+      commandLineArgs = [
+        "--enable-unsafe-webgpu"
+        "--enable-features=Vulkan"
+      ];
+    };
+
     git = {
         enable = true;
         userName = "sajmon";

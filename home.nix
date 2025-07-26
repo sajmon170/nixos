@@ -26,6 +26,7 @@
     python3Full
     uv
     octaveFull
+    texliveFull
 
     ffmpeg-full
     imagemagick

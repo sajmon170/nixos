@@ -250,6 +250,8 @@
      doas-sudo-shim
      unzip
      steam-run
+     (rizin.withPlugins (ps: with ps; [ jsdec rz-ghidra ]))
+     (cutter.withPlugins (ps: with ps; [ jsdec rz-ghidra ]))
   ];
 
   xdg.portal.enable = true;

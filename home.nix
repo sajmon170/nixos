@@ -45,6 +45,9 @@
     blackbox-terminal
     fragments
 
+    radare2
+    ghidra-bin
+
     dolphin-emu
 
     iosevka-bin

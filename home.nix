@@ -70,6 +70,11 @@
 
   fonts.fontconfig.enable = true;
 
+  xdg = {
+    enable = true;
+    userDirs.enable = true;
+  };
+
   gtk.enable = true;
   gtk.gtk3 = {
     enable = true;

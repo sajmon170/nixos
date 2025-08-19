@@ -34,6 +34,9 @@
     papers
     foliate
 
+    mpv
+    showtime
+
     vesktop
     fractal
     spotify

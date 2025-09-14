@@ -21,7 +21,6 @@
     krita
     gimp3
     godot
-    ardour
     obs-studio
     python314
     uv
@@ -69,17 +68,6 @@
       mgba
     ]))
     parallel-launcher
-
-    dexed
-    vital
-    calf
-    zynaddsubfx
-    sfizz
-    surge-XT
-    drumgizmo
-    odin2
-    dragonfly-reverb
-    guitarix
   ];
 
   fonts.fontconfig.enable = true;

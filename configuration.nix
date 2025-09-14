@@ -256,6 +256,17 @@
      (cutter.withPlugins (ps: with ps; [ jsdec rz-ghidra ]))
 
      pipewire.jack
+     ardour
+     dexed
+     vital
+     calf
+     zynaddsubfx
+     sfizz
+     surge-XT
+     drumgizmo
+     odin2
+     dragonfly-reverb
+     guitarix
   ];
 
   xdg.portal.enable = true;

@@ -23,7 +23,7 @@
     godot
     ardour
     obs-studio
-    python3Full
+    python314
     uv
     octaveFull
     texliveFull

@@ -69,6 +69,17 @@
       mgba
     ]))
     parallel-launcher
+
+    dexed
+    vital
+    calf
+    zynaddsubfx
+    sfizz
+    surge-XT
+    drumgizmo
+    odin2
+    dragonfly-reverb
+    guitarix
   ];
 
   fonts.fontconfig.enable = true;

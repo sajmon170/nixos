@@ -68,6 +68,10 @@
       mgba
     ]))
     parallel-launcher
+
+    xonotic
+    luanti
+    airshipper
   ];
 
   fonts.fontconfig.enable = true;

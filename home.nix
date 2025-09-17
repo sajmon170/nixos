@@ -68,6 +68,7 @@
       mgba
     ]))
     parallel-launcher
+    ppsspp-sdl-wayland
 
     xonotic
     luanti

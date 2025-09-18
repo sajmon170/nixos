@@ -73,6 +73,8 @@
     xonotic
     luanti
     airshipper
+
+    musescore
   ];
 
   fonts.fontconfig.enable = true;

@@ -58,6 +58,9 @@
     noto-fonts-cjk-sans
     noto-fonts-emoji
 
+    ripgrep
+    tokei
+
     wineWowPackages.stagingFull
     lutris
     devilutionx

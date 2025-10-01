@@ -90,6 +90,8 @@
     LC_TIME = "en_GB.UTF-8";
   };
 
+  virtualisation.docker.enable = true;
+
   hardware.graphics = {
     enable = true;
   };

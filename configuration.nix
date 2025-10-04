@@ -90,7 +90,14 @@
     LC_TIME = "en_GB.UTF-8";
   };
 
-  virtualisation.docker.enable = true;
+  programs.virt-manager.enable = true;
+  users.groups.libvirtd.members = ["sajmon"];
+
+  virtualisation = {
+    libvirtd.enable = true;
+    spiceUSBRedirection.enable = true;
+    docker.enable = true;
+  };
 
   hardware.graphics = {
     enable = true;

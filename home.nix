@@ -63,7 +63,6 @@
 
     wineWowPackages.stagingFull
     lutris
-    devilutionx
     (retroarch.withCores (cores: with cores; [
       bsnes
       mupen64plus

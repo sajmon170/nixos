@@ -209,10 +209,10 @@
 
     git = {
         enable = true;
-        userName = "sajmon";
-        userEmail = "szymon17099@gmail.com";
-        extraConfig = {
-            init.defaultBranch = "master";
+        settings = {
+          user.name = "sajmon";
+          user.email = "szymon17099@gmail.com";
+          init.defaultBranch = "master";
         };
         ignores = [
           ".ccls-cache/"

@@ -76,6 +76,7 @@
     xonotic
     luanti
     airshipper
+    prismlauncher
 
     musescore
   ];

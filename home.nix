@@ -72,6 +72,7 @@
     ]))
     parallel-launcher
     ppsspp-sdl-wayland
+    melonDS
 
     xonotic
     luanti

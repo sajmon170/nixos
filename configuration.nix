@@ -255,6 +255,7 @@
      gcc_latest
      llvm
      clang
+     clang-tools
      gdb
      lldb
      cudaPackages.cudatoolkit

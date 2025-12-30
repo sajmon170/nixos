@@ -24,11 +24,6 @@
       options = [ "fmask=0077" "dmask=0077" ];
     };
 
-  fileSystems."/run/media/sajmon/archlinux" =
-    { device = "/dev/disk/by-uuid/0ef6604d-ac2e-479d-ab26-62e37974ffd1";
-      fsType = "ext4";
-    };
-
   swapDevices = [{
     device = "/var/lib/swapfile";
     size = 16 * 1024;

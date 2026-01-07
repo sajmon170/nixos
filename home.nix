@@ -66,11 +66,9 @@
     (retroarch.withCores (cores: with cores; [
       bsnes
       mupen64plus
-      parallel-n64
       mgba
       beetle-psx-hw
     ]))
-    parallel-launcher
     ppsspp-sdl-wayland
     melonDS
 

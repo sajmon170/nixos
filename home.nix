@@ -78,6 +78,7 @@
     luanti
     airshipper
     prismlauncher
+    osu-lazer
 
     musescore
   ];

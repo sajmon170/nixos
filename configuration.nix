@@ -2,11 +2,13 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, forcedSystem, ... }:
 
 {
   imports =
-    [ # Include the results of the hardware scan.
+    [
+      inputs.probe-rs-rules.nixosModules.${forcedSystem}.default
+      # Include the results of the hardware scan.
       ./hardware-configuration.nix
     ];
 
@@ -142,6 +144,8 @@
       nvidiaBusId = "PCI:1:0:0";
     };
   };
+
+  hardware.probe-rs.enable = true;
 
   services.xserver.videoDrivers = [
     "modesetting"

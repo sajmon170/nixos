@@ -10,11 +10,16 @@
         url = "github:rafaelmardojai/firefox-gnome-theme/master";
         flake = false;
     };
+    probe-rs-rules.url = "github:jneem/probe-rs-rules";
   };
 
   outputs = inputs @ { self, nixpkgs, home-manager, firefox-gnome-theme, blender-bin, ... }: {
     nixosConfigurations.sajmon-nixos = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
+      specialArgs = {
+        inherit inputs;
+        forcedSystem = "x86_64-linux";
+      };
       modules = [
         ({config, pkgs, ...}: { nixpkgs.overlays = [ blender-bin.overlays.default ]; })
         ./configuration.nix

@@ -258,6 +258,7 @@
      tmux
      powertop
      usbutils
+     minicom
      mesa-demos
      rustup
      gcc_latest

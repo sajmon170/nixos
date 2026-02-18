@@ -279,7 +279,7 @@
      calf
      zynaddsubfx
      sfizz
-     surge-XT
+     surge-xt
      drumgizmo
      odin2
      dragonfly-reverb

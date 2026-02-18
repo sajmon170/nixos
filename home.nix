@@ -61,7 +61,7 @@
     ripgrep
     tokei
 
-    wineWowPackages.stagingFull
+    wineWow64Packages.stagingFull
     lutris
     (retroarch.withCores (cores: with cores; [
       bsnes
@@ -70,7 +70,7 @@
       beetle-psx-hw
     ]))
     ppsspp-sdl-wayland
-    melonDS
+    melonds
 
     xonotic
     luanti

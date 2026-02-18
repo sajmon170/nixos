@@ -257,6 +257,7 @@
      htop
      tmux
      powertop
+     usbutils
      mesa-demos
      rustup
      gcc_latest

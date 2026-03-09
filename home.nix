@@ -42,7 +42,7 @@
     audacious
     ncmpcpp
     cmus
-    neofetch
+    fastfetch
     pfetch
     blackbox-terminal
     fragments

@@ -285,7 +285,6 @@
      drumgizmo
      odin2
      dragonfly-reverb
-     guitarix
   ];
 
   xdg.portal.enable = true;
